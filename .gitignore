@@ -1,0 +1,30 @@
+﻿# Node & Frontend
+**/node_modules/
+**/dist/
+**/.replit*
+**/.npm*
+
+# Flutter / Dart
+**/.dart_tool/
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+
+# .NET / C#
+**/bin/
+**/obj/
+**/.vs/
+**/*.user
+**/*.suo
+
+# Databases / Backups
+**/*.bak
+**/*.zip
+
+# IDE & OS
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db

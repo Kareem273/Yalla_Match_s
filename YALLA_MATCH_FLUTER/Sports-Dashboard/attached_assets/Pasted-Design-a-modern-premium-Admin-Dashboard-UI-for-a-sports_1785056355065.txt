@@ -1,0 +1,346 @@
+Design a modern, premium Admin Dashboard UI for a sports court reservation system called "Yalla Match".
+
+This is a UI prototype only, but it should be fully interactive with mock data as if the application is already running.
+
+Theme:
+- Primary Color: Red (#D32F2F)
+- Secondary Color: White (#FFFFFF)
+- Background: Light Gray (#F5F5F5)
+- Cards: White with soft shadows
+- Border Radius: 16px
+- Modern dashboard similar to Stripe, Notion, Vercel and Linear.
+- Clean, minimal and responsive.
+- Use Material Design 3.
+- Desktop-first design.
+
+==================================================
+LAYOUT
+==================================================
+
+Left Sidebar
+
+Top Header
+
+Main Dashboard
+
+==================================================
+SIDEBAR
+==================================================
+
+Logo:
+Yalla Match
+
+Menu Items:
+
+Dashboard
+
+Reservations
+
+Courts
+
+Time Slot Management
+
+Reports
+
+Analytics
+
+Students
+
+Activity Log
+
+Settings
+
+Logout
+
+==================================================
+HEADER
+==================================================
+
+Welcome Card
+
+Welcome, Ahmed Hassan
+
+Role:
+Board
+
+Today's Date
+
+Notification Bell
+
+==================================================
+TOP KPI CARDS
+==================================================
+
+Show beautiful statistic cards.
+
+Mock Data:
+
+Total Bookings
+245
+
+Today's Bookings
+18
+
+Confirmed Reservations
+180
+
+Pending Payments
+12
+
+Cancellation Requests
+5
+
+Refund Requests
+3
+
+Total Revenue
+EGP 185,400
+
+Reserved Hours
+620 Hours
+
+Available Courts
+5
+
+Blocked Time Slots
+8
+
+==================================================
+FILTER SECTION
+==================================================
+
+Modern filter bar containing:
+
+Date From
+
+Date To
+
+Court
+
+Court Category
+
+Reservation Status
+
+Payment Status
+
+Shared Court Group
+
+Apply Filter Button
+
+Reset Button
+
+==================================================
+BAR CHART
+==================================================
+
+Title:
+
+Bookings Per Court
+
+Mock Data:
+
+Football 120
+
+Basketball 45
+
+Volleyball 30
+
+Handball 28
+
+Ping Pong 22
+
+==================================================
+PIE CHART
+==================================================
+
+Title:
+
+Reservation Distribution
+
+Confirmed 73%
+
+Pending 15%
+
+Cancelled 7%
+
+Refunded 5%
+
+==================================================
+LINE CHART
+==================================================
+
+Title:
+
+Revenue Over Time
+
+Show smooth line graph.
+
+Dropdown:
+
+Daily
+
+Weekly
+
+Monthly
+
+Yearly
+
+==================================================
+SECOND LINE CHART
+==================================================
+
+Reserved Hours
+
+Display reserved hours trend.
+
+==================================================
+RECENT RESERVATIONS TABLE
+==================================================
+
+Columns:
+
+Reservation ID
+
+Customer
+
+Court
+
+Category
+
+Date
+
+Time
+
+Status
+
+Payment
+
+Amount
+
+Actions
+
+Include colored badges.
+
+==================================================
+PENDING APPROVALS
+==================================================
+
+Card showing reservations waiting for approval.
+
+Each item contains:
+
+Customer Name
+
+Court
+
+Payment Screenshot Button
+
+Approve Button
+
+Reject Button
+
+==================================================
+CANCELLATION REQUESTS
+==================================================
+
+Separate card.
+
+Each request shows:
+
+Customer
+
+Court
+
+Reservation Date
+
+Refund Amount
+
+Approve Refund
+
+Reject Refund
+
+==================================================
+MOST BOOKED COURTS
+==================================================
+
+Ranking Card
+
+1 Football
+
+2 Basketball
+
+3 Volleyball
+
+4 Handball
+
+5 Ping Pong
+
+==================================================
+ACTIVITY LOG
+==================================================
+
+Timeline Card
+
+Recent Activities
+
+Examples:
+
+Ahmed approved reservation
+
+Sara cancelled reservation
+
+Board updated football price
+
+Staff blocked court
+
+==================================================
+TRACEABILITY
+==================================================
+
+Every KPI card and every chart should be clickable.
+
+Clicking any value opens a detailed modal showing the reservations behind that statistic.
+
+==================================================
+REPORT EXPORT
+==================================================
+
+Beautiful Export button.
+
+Export options:
+
+PDF
+
+Word
+
+Excel
+
+==================================================
+DESIGN STYLE
+==================================================
+
+Premium
+
+Elegant
+
+Business Dashboard
+
+Minimal
+
+Modern
+
+Professional
+
+Soft shadows
+
+Rounded cards
+
+Smooth hover animations
+
+Smooth page transitions
+
+Professional icons
+
+No dark mode.
+
+Everything should look like a production-ready SaaS dashboard.
