@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Yalla Match Admin Dashboard"
+version = "1.0.0"
+id = "artifacts/yalla-match"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19244
+
+[services.development]
+run = "pnpm --filter @workspace/yalla-match run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/yalla-match", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/yalla-match/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19244"
+BASE_PATH = "/"
